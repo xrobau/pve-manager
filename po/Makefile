@@ -21,7 +21,7 @@ pve-lang-%.js: %.po
 .PHONY: install 
 install: $(patsubst %, pve-lang-%.js, $(LINGUAS))
 	install -d ${WWWLOCALEDIR}
-	install -m 0644 -o www-data -g www-data $^ ${WWWLOCALEDIR}
+	install -m 0644 $^ ${WWWLOCALEDIR}
 
 clean:
 	rm -rf *~ *.po.tmp *.js.tmp pve-lang-*.js

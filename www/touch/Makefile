@@ -24,7 +24,6 @@ install: ${TOUCHDATA} index.html.tpl
 	install -m 0644 index.html.tpl ${WWWTOUCHDIR}
 	install -d ${WWWTOUCHDIR}/resources/themes/images
 	cp -a ${TOUCHDIR}/resources/themes/images/default ${WWWTOUCHDIR}/resources/themes/images
-	chown -R www-data:www-data ${WWWTOUCHDIR}
 	find ${WWWTOUCHDIR} -type f -exec chmod -R 0644 '{}' ';'
 
 .PHONY: clean
