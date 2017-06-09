@@ -67,7 +67,7 @@ foreach my $k (keys %$href) {
 #use Data::Dumper;
 #print STDERR Dumper(encode_json({test => decode('UTF-8', "müssen")}));
 
-my $json = encode_json($catalog);
+my $json = to_json($catalog, {canonical => 1, utf8 => 1});
 
 print <<__EOD
 // gettext catalog "$filename"
