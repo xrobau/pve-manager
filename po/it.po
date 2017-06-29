@@ -221,12 +221,12 @@ msgstr "Impostazioni Browser"
 
 #: ../www/manager6/node/Config.js:35
 msgid "Bulk Actions"
-msgstr "Azione in massa"
+msgstr "Azioni in massa"
 
 #: ../www/manager6/node/CmdMenu.js:64 ../www/manager6/node/CmdMenu.js:71
 #: ../www/manager6/node/Config.js:67 ../www/manager6/node/Config.js:72
 msgid "Bulk Migrate"
-msgstr "Migra in Massa"
+msgstr "Migra in massa"
 
 #: ../www/manager6/node/CmdMenu.js:34 ../www/manager6/node/CmdMenu.js:41
 #: ../www/manager6/node/Config.js:41 ../www/manager6/node/Config.js:46
@@ -236,7 +236,7 @@ msgstr "Avvia in massa"
 #: ../www/manager6/node/CmdMenu.js:49 ../www/manager6/node/CmdMenu.js:56
 #: ../www/manager6/node/Config.js:54 ../www/manager6/node/Config.js:59
 msgid "Bulk Stop"
-msgstr "Stop (immediato)"
+msgstr "Stop in massa"
 
 #: ../www/manager6/form/ControllerSelector.js:99
 msgid "Bus/Device"
@@ -451,7 +451,7 @@ msgstr "Converti in template"
 
 #: ../www/manager6/grid/FirewallRules.js:584
 msgid "Copy"
-msgstr "Duplica"
+msgstr "Copia"
 
 #: ../www/manager6/Utils.js:616
 msgid "Copy data"
@@ -1016,7 +1016,7 @@ msgstr "Includi le VM selezionate"
 
 #: ../www/manager6/Utils.js:567 ../www/manager6/node/Disks.js:158
 msgid "Initialize Disk with GPT"
-msgstr "Formattare disco con GPT"
+msgstr "Inizializza disco con GPT"
 
 #: ../www/manager6/grid/FirewallOptions.js:132
 #: ../www/manager6/grid/FirewallOptions.js:137
@@ -1107,7 +1107,7 @@ msgstr "Clone linkato"
 
 #: ../www/manager6/lxc/CreateWizard.js:164
 msgid "Load SSH Key File"
-msgstr "Carica chiave SSH"
+msgstr "Carica file chiave SSH"
 
 #: ../www/manager6/node/StatusView.js:37 ../www/manager6/node/Summary.js:123
 msgid "Load average"
@@ -1178,7 +1178,7 @@ msgstr ""
 
 #: ../www/manager6/ha/ResourceEdit.js:82 ../www/manager6/ha/Resources.js:154
 msgid "Max. Restart"
-msgstr "Massimo ravvivamenti"
+msgstr "Max. riavvii"
 
 #: ../www/manager6/Toolkit.js:73
 msgid "Maximum characters"
@@ -1232,7 +1232,7 @@ msgstr "Migra"
 
 #: ../www/manager6/Utils.js:623
 msgid "Migrate all VMs and Containers"
-msgstr "Migra tutti VMs e Container"
+msgstr "Migra tutte le VM ed i Container"
 
 #: ../www/manager6/ceph/Pool.js:26
 msgid "Min. Size"
@@ -1390,15 +1390,15 @@ msgstr "Nessun OSD selezionato"
 
 #: ../www/manager6/node/Disks.js:239
 msgid "No S.M.A.R.T. Values"
-msgstr "No Dati S.M.A.R.T."
+msgstr "Nessun dato S.M.A.R.T."
 
 #: ../www/manager6/form/VMSelector.js:161
 msgid "No VM selected"
-msgstr "Nessun VM selezionato"
+msgstr "Nessuna VM selezionata"
 
 #: ../www/manager6/ceph/Status.js:46
 msgid "No Warnings/Errors"
-msgstr "Nessun Problema"
+msgstr "Nessun avviso/errore"
 
 #: ../www/manager6/qemu/HDEdit.js:251
 msgid "No backup"
@@ -1477,7 +1477,7 @@ msgstr "Normalizzato"
 
 #: ../www/manager6/Toolkit.js:129
 msgid "Not a valid list of hosts"
-msgstr "Lista Host non è valido"
+msgstr "Non è una lista valida di Host"
 
 #: ../www/manager6/panel/NotesView.js:4 ../www/manager6/window/NotesEdit.js:8
 msgid "Notes"
@@ -2055,11 +2055,11 @@ msgstr "Shell"
 #: ../www/manager6/grid/BackupView.js:196
 #: ../www/manager6/storage/ContentView.js:470
 msgid "Show Configuration"
-msgstr "Vedi Configurazione"
+msgstr "Mostra Configurazione"
 
 #: ../www/manager6/node/Disks.js:140
 msgid "Show S.M.A.R.T. values"
-msgstr "Vedi dati S.M.A.R.T."
+msgstr "Mostra dati S.M.A.R.T."
 
 #: ../www/manager6/Utils.js:585 ../www/manager6/Utils.js:602
 #: ../www/manager6/lxc/CmdMenu.js:82 ../www/manager6/lxc/Config.js:73
@@ -2373,7 +2373,7 @@ msgstr "Questo rimuoverà permanentemente i dati della VM corrente."
 
 #: ../www/manager6/form/GuestIDSelector.js:41
 msgid "This {0} ID does not exists"
-msgstr "Questo {0} ID non essiste"
+msgstr "Questo {0} ID non esiste"
 
 #: ../www/manager6/form/GuestIDSelector.js:42
 msgid "This {0} ID is already in use"
@@ -2613,7 +2613,7 @@ msgstr "File VZDump di backup"
 
 #: ../www/manager6/Toolkit.js:22 ../www/manager6/Toolkit.js:37
 msgid "Valid CIDR Range"
-msgstr "intervallo valido CIDR"
+msgstr "Intervallo CIDR valido"
 
 #: ../www/manager6/grid/ObjectGrid.js:123 ../www/manager6/lxc/Snapshot.js:108
 #: ../www/manager6/node/Disks.js:247 ../www/manager6/qemu/Snapshot.js:118
@@ -2659,7 +2659,7 @@ msgstr "Gruppo di volumi"
 
 #: ../www/manager6/node/Disks.js:250
 msgid "Worst"
-msgstr "Peggio"
+msgstr "Peggiore"
 
 #: ../www/manager6/storage/ZFSEdit.js:99
 msgid "Write cache"
@@ -2748,7 +2748,7 @@ msgstr "nessuno"
 
 #: ../www/manager6/dc/Summary.js:185
 msgid "of {0} CPU(s)"
-msgstr "da {0} CPU(s)"
+msgstr "di {0} CPU(s)"
 
 #: ../www/manager6/form/NetworkCardSelector.js:6
 msgid "paravirtualized"
@@ -2783,11 +2783,11 @@ msgstr "usa impostazioni dell' host"
 #: ../www/manager6/Utils.js:1088 ../www/manager6/ceph/Status.js:162
 #: ../www/manager6/dc/Summary.js:188 ../www/manager6/dc/Summary.js:191
 msgid "{0} of {1}"
-msgstr "{0} da {1}"
+msgstr "{0} di {1}"
 
 #: ../www/manager6/Utils.js:1079
 msgid "{0}% of {1}"
-msgstr "{0}% da {1}"
+msgstr "{0}% di {1}"
 
 #~ msgid "Activate"
 #~ msgstr "Attiva"
