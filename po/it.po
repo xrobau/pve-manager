@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Thu Jun 29 16:01:42 2017\n"
+"POT-Creation-Date: Fri Jun 30 07:27:35 2017\n"
 "PO-Revision-Date: 2017-06-07 10:00+0100\n"
 "Last-Translator:  Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: Italian <diaolin@diaolin.com>\n"
@@ -362,7 +362,7 @@ msgstr "Comando"
 #: ../www/manager6/grid/FirewallRules.js:352
 #: ../www/manager6/grid/FirewallRules.js:757
 #: ../www/manager6/grid/Replication.js:51
-#: ../www/manager6/grid/Replication.js:459 ../www/manager6/ha/GroupEdit.js:184
+#: ../www/manager6/grid/Replication.js:445 ../www/manager6/ha/GroupEdit.js:184
 #: ../www/manager6/ha/GroupSelector.js:24 ../www/manager6/ha/Groups.js:113
 #: ../www/manager6/ha/ResourceEdit.js:136
 #: ../www/manager6/node/NetworkEdit.js:159
@@ -1790,7 +1790,7 @@ msgid "RTC start date"
 msgstr "RTC data iniziale"
 
 #: ../www/manager6/grid/Replication.js:43
-#: ../www/manager6/grid/Replication.js:447 ../www/manager6/lxc/Network.js:141
+#: ../www/manager6/grid/Replication.js:433 ../www/manager6/lxc/Network.js:141
 #: ../www/manager6/qemu/NetworkEdit.js:144
 msgid "Rate limit"
 msgstr ""
@@ -1863,7 +1863,8 @@ msgstr "Rimuovi Partizioni"
 
 #: ../www/manager6/dc/Config.js:58 ../www/manager6/lxc/Config.js:195
 #: ../www/manager6/node/Config.js:245 ../www/manager6/qemu/Config.js:226
-msgid "Replicatione"
+#, fuzzy
+msgid "Replication"
 msgstr "Replicazione"
 
 #: ../www/manager6/grid/Replication.js:5
@@ -2025,7 +2026,7 @@ msgid "Scanning..."
 msgstr "Scansione..."
 
 #: ../www/manager6/grid/Replication.js:37
-#: ../www/manager6/grid/Replication.js:442
+#: ../www/manager6/grid/Replication.js:428
 msgid "Schedule"
 msgstr "Orario"
 
@@ -2899,7 +2900,7 @@ msgid "syncing"
 msgstr "replicazione in corso"
 
 #: ../www/manager6/grid/Replication.js:46
-#: ../www/manager6/grid/Replication.js:451
+#: ../www/manager6/grid/Replication.js:437
 #: ../www/manager6/lxc/ResourceEdit.js:129
 #: ../www/manager6/lxc/ResourceEdit.js:143 ../www/manager6/lxc/Resources.js:71
 #: ../www/manager6/lxc/Resources.js:82 ../www/manager6/qemu/CPUOptions.js:38
