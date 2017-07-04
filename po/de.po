@@ -1875,7 +1875,7 @@ msgstr "Replizierung Log"
 
 #: ../www/manager6/grid/Replication.js:243
 msgid "Replication needs at least two nodes"
-msgstr "Replizierung benötigt mindestens zwei Nodes"
+msgstr "Replizierung benötigt mindestens zwei Knoten"
 
 #: ../www/manager6/ha/ResourceEdit.js:110 ../www/manager6/ha/Resources.js:137
 msgid "Request State"
