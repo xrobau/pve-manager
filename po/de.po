@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Fri Jun 30 07:27:35 2017\n"
+"POT-Creation-Date: Tue Jul  4 09:33:07 2017\n"
 "PO-Revision-Date: 2017-06-07 10:10+0100\n"
 "Last-Translator:  Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: German\n"
@@ -108,17 +108,14 @@ msgstr "Möchten Sie diese Seite wirklich verlassen?"
 #: ../www/manager6/dc/AuthView.js:54 ../www/manager6/dc/GroupView.js:33
 #: ../www/manager6/dc/PoolView.js:33 ../www/manager6/dc/StorageView.js:84
 #: ../www/manager6/dc/UserView.js:95 ../www/manager6/grid/BackupView.js:165
-#: ../www/manager6/grid/PoolMembers.js:178 ../www/manager6/lxc/Network.js:406
+#: ../www/manager6/grid/PoolMembers.js:178
+#: ../www/manager6/grid/Replication.js:275 ../www/manager6/lxc/Network.js:406
 #: ../www/manager6/lxc/Resources.js:212 ../www/manager6/lxc/SnapshotTree.js:196
 #: ../www/manager6/qemu/HardwareView.js:404
 #: ../www/manager6/qemu/SnapshotTree.js:194
 #: ../www/manager6/storage/ContentView.js:446
 msgid "Are you sure you want to remove entry {0}"
 msgstr "Möchten Sie Eintrag {0} wirklich entfernen?"
-
-#: ../www/manager6/grid/Replication.js:275
-msgid "Are you sure you want to remove replication job '{0}'?"
-msgstr "Möchten Sie Replikation Job {0} wirklich entfernen?"
 
 #: ../www/manager6/dc/ACLView.js:158 ../www/manager6/dc/Backup.js:367
 msgid "Are you sure you want to remove this entry"
@@ -755,6 +752,7 @@ msgstr "Daten löschen"
 #: ../www/manager6/grid/FirewallRules.js:463
 #: ../www/manager6/grid/FirewallRules.js:484
 #: ../www/manager6/grid/PoolMembers.js:200
+#: ../www/manager6/grid/Replication.js:178
 #: ../www/manager6/grid/Replication.js:193
 #: ../www/manager6/grid/Replication.js:370 ../www/manager6/ha/Groups.js:54
 #: ../www/manager6/ha/ResourceEdit.js:51 ../www/manager6/ha/Resources.js:85
@@ -2925,6 +2923,9 @@ msgstr "{0} von {1}"
 #: ../www/manager6/Utils.js:1086
 msgid "{0}% of {1}"
 msgstr "{0}% von {1}"
+
+#~ msgid "Are you sure you want to remove replication job '{0}'?"
+#~ msgstr "Möchten Sie Replikation Job {0} wirklich entfernen?"
 
 #~ msgid "Boot order"
 #~ msgstr "Boot-Reihenfolge"

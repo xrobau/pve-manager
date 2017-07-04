@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Fri Jun 30 07:27:35 2017\n"
+"POT-Creation-Date: Tue Jul  4 09:33:07 2017\n"
 "PO-Revision-Date: 2017-06-07 10:00+0100\n"
 "Last-Translator:  Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: Italian <diaolin@diaolin.com>\n"
@@ -109,17 +109,14 @@ msgstr "Sicuro di volervi allontanare da questa pagina?"
 #: ../www/manager6/dc/AuthView.js:54 ../www/manager6/dc/GroupView.js:33
 #: ../www/manager6/dc/PoolView.js:33 ../www/manager6/dc/StorageView.js:84
 #: ../www/manager6/dc/UserView.js:95 ../www/manager6/grid/BackupView.js:165
-#: ../www/manager6/grid/PoolMembers.js:178 ../www/manager6/lxc/Network.js:406
+#: ../www/manager6/grid/PoolMembers.js:178
+#: ../www/manager6/grid/Replication.js:275 ../www/manager6/lxc/Network.js:406
 #: ../www/manager6/lxc/Resources.js:212 ../www/manager6/lxc/SnapshotTree.js:196
 #: ../www/manager6/qemu/HardwareView.js:404
 #: ../www/manager6/qemu/SnapshotTree.js:194
 #: ../www/manager6/storage/ContentView.js:446
 msgid "Are you sure you want to remove entry {0}"
 msgstr "Siete sicuro che volete rimuovere l'elemento {0}"
-
-#: ../www/manager6/grid/Replication.js:275
-msgid "Are you sure you want to remove replication job '{0}'?"
-msgstr "Siete sicuro che volete rimuovere il job '{0}'"
 
 #: ../www/manager6/dc/ACLView.js:158 ../www/manager6/dc/Backup.js:367
 msgid "Are you sure you want to remove this entry"
@@ -756,6 +753,7 @@ msgstr "Elimina dati"
 #: ../www/manager6/grid/FirewallRules.js:463
 #: ../www/manager6/grid/FirewallRules.js:484
 #: ../www/manager6/grid/PoolMembers.js:200
+#: ../www/manager6/grid/Replication.js:178
 #: ../www/manager6/grid/Replication.js:193
 #: ../www/manager6/grid/Replication.js:370 ../www/manager6/ha/Groups.js:54
 #: ../www/manager6/ha/ResourceEdit.js:51 ../www/manager6/ha/Resources.js:85
@@ -2933,6 +2931,9 @@ msgstr "{0}% di {1}"
 
 #~ msgid "Are you sure you want to activate your changes"
 #~ msgstr "Sicuro di volere attivare le modifiche"
+
+#~ msgid "Are you sure you want to remove replication job '{0}'?"
+#~ msgstr "Siete sicuro che volete rimuovere il job '{0}'"
 
 #, fuzzy
 #~ msgid "Are you sure you want to remove {item.type} {item.id}?"
