@@ -25,8 +25,6 @@
     <script type="text/javascript" src="/pve2/touch/pvemanager-mobile.js?ver=[% version %]"></script>
     <script type="text/javascript">
 if (typeof(PVE) === 'undefined') PVE = {};
-PVE.UserName = '[% username %]'
-PVE.CSRFPreventionToken = '[% token %]';
     </script>
   </head>
   <body>
