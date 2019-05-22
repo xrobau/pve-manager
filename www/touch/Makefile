@@ -7,14 +7,18 @@ TOUCHDATA = 					\
 	${TOUCHDIR}/sencha-touch-all.js		\
 	${TOUCHDIR}/sencha-touch-all-debug.js
 
-${TOUCHDATA}: ${TOUCHSRC}
+
+${TOUCHDATA}: extract_touch
+
+.PHONY: extract_touch
+extract_touch: ${TOUCHSRC}
 	rm -rf ${TOUCHDIR}
 	unzip -x ${TOUCHSRC}
-	touch ${TOUCHDATA}
 
-all: ${TOUCHDATA}
+.PHONY: all
+all:
 
-.PHONY: install 
+.PHONY: install
 install: ${TOUCHDATA} index.html.tpl
 	install -d ${WWWTOUCHDIR}
 	install -m 0644 ${TOUCHDATA} ${WWWTOUCHDIR}
