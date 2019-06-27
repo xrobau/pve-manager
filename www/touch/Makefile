@@ -13,7 +13,7 @@ ${TOUCHDATA}: extract_touch
 .PHONY: extract_touch
 extract_touch: ${TOUCHSRC}
 	rm -rf ${TOUCHDIR}
-	unzip -x ${TOUCHSRC}
+	unzip -q -x ${TOUCHSRC}
 
 .PHONY: all
 all:
